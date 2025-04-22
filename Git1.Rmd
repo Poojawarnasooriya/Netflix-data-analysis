@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+author: "Pooja Warnasooriya"
+date: "2025-04-22"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(readr)
+
+sapply(netflix_titles, function(x) sum(is.na(x)))
+nrow(netflix_titles)
+
+
+
+```
+
